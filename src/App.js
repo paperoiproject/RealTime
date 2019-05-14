@@ -30,7 +30,7 @@ class App extends Component {
     }
 
     if(target === "month"){
-      let cp_month_list = this.state.day_list.slice();
+      let cp_month_list = this.state.month_list.slice();
       cp_month_list.push(text)
       this.setState({
         month_list: cp_month_list,
