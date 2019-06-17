@@ -1,11 +1,13 @@
 import React from 'react';
-import Tab from '../components/Tab.js';
+import UpperTab from '../components/UpperTab.js';
 
 
 const ViewMenuBar = (props) => {
+
   return (
     <div className="">
-      <Tab title="s" />
+      <UpperTab title="s"/>
+      
    </div>
   );
 }
